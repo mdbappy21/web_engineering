@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Performance in Table</title>
+    <style>
+       table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <th>Section</th>
+            <th colspan="2">Name</th>
+            <th>Id</th>
+            <th>Instractor</th>
+        </tr>
+        <tr>
+            <td rowspan="2">61_J1</td>
+            <td>FN</td>
+            <td>LN</td>
+            <td>5656</td>
+            <td rowspan="2">MAR</td>
+        </tr>
+        <tr>
+            <td>FN</td>
+            <td>LN</td>
+            <td>5688</td>
+        </tr>
+        <tr>
+            <td rowspan="2">61_J2</td>
+            <td>FN</td>
+            <td>LN</td>
+            <td>5656</td>
+            <td rowspan="2">NSL</td>
+        </tr>
+        <tr>
+            <td>FN</td>
+            <td>LN</td>
+            <td>5688</td>
+        </tr>
+    </table>
+</body>
+
+</html>
