@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  background: white;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+td {
+  width: 80px;
+  height: 80px;
+  border: 2px solid black;
+  font-size: 48px;
+  cursor: pointer;
+  vertical-align: middle;
+  text-align: center;
+  background-color: white;
+  transition: background-color 0.3s;
+  user-select: none;
+}
+
+td:hover {
+  background-color: #ddd;
+}
+
+td.disabled {
+  cursor: default;
+  color: #555;
+  background-color: #eee;
+}
+
+#status {
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+#resetBtn {
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
