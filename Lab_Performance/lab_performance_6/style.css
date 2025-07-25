@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#myForm {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Verdana, sans-serif;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #126ec4c0;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#nameError {
+    color: red;
+    font-size: 0.9em;
+}
+#emailError {
+    color: red;
+    font-size: 0.9em;
+}
+#passwordError {
+    color: red;
+    font-size: 0.9em;
+}
+#batchError {
+    color: red;
+    font-size: 0.9em;
+}
+#hobbyError {
+    color: red;
+    font-size: 0.9em;
+}
+#confirmPasswordError {
+    color: red;
+    font-size: 0.9em;
+}
